@@ -1,94 +1,99 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    margin:0; /* removes default margin and padding applied by other browsers */
-    padding: 0;
+            margin:0; /* removes default margin and padding applied by other browsers */
+            padding: 0;
+            background-image: url(assets/leafs-background.jpg);
+
 }
 header{
-    display: flex; /*Tells header it is a flex container*/
-    justify-content: space-evenly; /*evenly spaces child elements inside the container*/
-        align-items: center; /*vertically center the child elements inside the container*/
-    background-color: rgb(114, 65, 16); /*back-ground color*/
-    color: rgb(255, 255, 255); /*font color */
-    padding: 20px; /*padding INSIDE the header*/
-    width: 100%; /*Makes sure the header spans the enitre width of the screen*/
-    margin: 0 auto; /*this centers the header horitzontal on the page*/
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* creates a light shadow below the header to give it depth*/
-    flex-wrap: wrap; /*makes sure that the chold elements wrap onto a new line if there isnt enough space*/
+            display: flex; /*Tells header it is a flex container*/
+            justify-content: space-evenly; /*evenly spaces child elements inside the container*/
+            align-items: center; /*vertically center the child elements inside the container*/
+            background-color: rgb(114, 65, 16); /*back-ground color*/
+            color: rgb(255, 255, 255); /*font color */
+            padding: 20px; /*padding INSIDE the header*/
+            width: 100%; /*Makes sure the header spans the enitre width of the screen*/
+            margin: 0 auto; /*this centers the header horitzontal on the page*/
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* creates a light shadow below the header to give it depth*/
+            flex-wrap: wrap; /*makes sure that the chold elements wrap onto a new line if there isnt enough space*/
 }
 header img {
-    border-radius: 35%; /*round the corners of the element (if it is square)*/
-    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.8);
-    max-width: 100%;
-    height: auto; 
-    object-fit: cover;
+            border-radius: 35%; /*round the corners of the element (if it is square)*/
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.8);
+            max-width: 100%;
+            height: auto; 
+            object-fit: cover;
 }
 h2 {
-    p.inset {border-style: inset;}
+            p.inset {border-style: inset;}
 }
 .intro{
-    max-width: 500px;
-    text-align: center;
+            max-width: 500px;
+            text-align: center;
 }
 /* styling for the main element */
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
 }
 /*styling for the section elements*/
 section {
-    background-color:darkolivegreen;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(107, 100, 100, 0.2);
-    /*padding: 20px; */
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 800px;
-    font-family: 'Courier New', Courier, monospace;
+            background-color:darkolivegreen;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(107, 100, 100, 0.2);
+            padding: 20px; 
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 800px;
+            font-family: 'Courier New', Courier, monospace;
 }
 footer{
-    background-color: rgb(114, 65, 16);
-    width: 100%;
-    font-size: 33px;
-    height: 90px;
-    color:rgb(255, 253, 253);
-    display: flex; /*Tells header it is a flex container*/
-    justify-content: center; 
-    align-items: center; /*vertically center the child elements inside the container*/
-    padding: 20px; /*padding INSIDE the header*/
-    margin: 0 auto; /*this centers the header horitzontal on the page*/  
-    font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(114, 65, 16);
+            width: 100%;
+            font-size: 33px;
+            height: 90px;
+            color:rgb(255, 253, 253);
+            display: flex; /*Tells header it is a flex container*/
+            justify-content: center; 
+            align-items: center; /*vertically center the child elements inside the container*/
+            padding: 20px; /*padding INSIDE the header*/
+            margin: 0 auto; /*this centers the header horitzontal on the page*/  
+            font-family: 'Courier New', Courier, monospace;
 }
 
 .footerLink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 }
 a {
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 33px;
-    padding-left: 10px;
-    padding-top: 5px;
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 33px;
+            padding-left: 10px;
+            padding-top: 5px;
 }
 
 a:hover {
-    text-decoration: underline;
+            text-decoration: underline;
 }
 
 li{
-    margin-bottom: 8px;
+            margin-bottom: 8px;
 }
 .CenterFooter{
-    text-align: left;
+            text-align: left;
 }
 .nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(175, 126, 35);
-    width: 100%;
-}
-body {
-    background-image: url(assests/leafs-background.jpg);
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(175, 126, 35);
+            width: 100%; 
+            margin: 0; 
+            /* padding: 10px 0; */
+           
 }
